@@ -1,0 +1,106 @@
+    body {
+        max-width: 1400px;
+        margin: 0;
+        padding: 0;
+        /* max-height: 716px; */
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    
+    * {
+        font-size: xx-large;
+    }
+    
+    content {
+        border: 1px solid red;
+        height: 600px;
+        width: 600px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+        /* background-image: url('..'); */
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    img {
+        width: 200%;
+        height: 200%;
+        animation: rotate 5s infinite linear;
+        display: block;
+    }
+    
+    .balls {
+        width: 900px;
+        height: 900px;
+        top: -150px;
+        left: -150px;
+        /* background-color: rgb(41, 244, 251); */
+        animation: rotateBalls 5s infinite linear;
+        position: absolute;
+        z-index: 10000;
+    }
+    
+    span {
+        display: block;
+        position: absolute;
+        top: 445px;
+        left: 445px;
+        width: 10px;
+        height: 10px;
+        border: 1px solid red;
+        border-radius: 50%;
+        background-color: rosybrown;
+        /* transform: translateX(-50%) translateY(-50%); */
+        /* animation: balls 25s infinite ease-in; */
+    }
+    /* @keyframes balls {
+        from {
+            transform: translateX(-50%) translateY(-50%);
+        }
+        to {
+            transform: translateX(-10000%) translateY(-10000%)
+        }
+    }
+    
+    @keyframes rotate {
+        0% {
+            transform: rotate(0deg);
+        }
+        25% {
+            transform: rotate(-90deg);
+        }
+        50% {
+            transform: rotate(-180deg);
+        }
+        75% {
+            transform: rotate(-270deg);
+        }
+        100% {
+            transform: rotate(-360deg);
+        }
+    }
+    
+    @keyframes rotateBalls {
+        0% {
+            transform: rotate(0deg);
+        }
+        25% {
+            transform: rotate(90deg);
+        }
+        50% {
+            transform: rotate(180deg);
+        }
+        75% {
+            transform: rotate(270deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    } */
